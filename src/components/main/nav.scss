@@ -1,26 +1,29 @@
-.main__wrapper {
+$var1: #ffffff;
+$var2: #222e3e;
+
+.nav__wrapper {
 	display: flex;
-	color: #fff;
+	color: #ffffff;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	padding: 30px;
 	gap: 100px;
 	margin: 0 auto;
 }
-
-.nav {
+.nav-item {
 	width: 370px;
 	height: 210px;
+	list-style-type: none;
 	background-color: #222e3e;
 	border-radius: 20px;
 	text-align: center;
 	font-size: 20px;
 	line-height: 190px;
 	transition: 0.2s all;
-}
-.nav:hover {
-	transform: translateY(-15px);
-	box-shadow: 1px 1px 12px;
+	&:hover {
+		transform: translateY(-15px);
+		box-shadow: 1px 1px 12px;
+	}
 }
 a {
 	text-decoration: none;

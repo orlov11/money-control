@@ -1,0 +1,36 @@
+.header {
+	color: #ffffff;
+	padding: 10px 25px;
+	&__wrapper {
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 15px;
+	}
+	&__logo {
+		text-align: center;
+		flex: auto;
+		&-text {
+			font-size: 40px;
+		}
+	}
+	&__sep {
+		border: 1px solid;
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+.account {
+	display: flex;
+	gap: 15px;
+	width: 11rem;
+	align-items: center;
+	font-size: 16px;
+	&__logo svg {
+		width: 20px;
+		height: 20px;
+	}
+}
+a {
+	color: #ffffff;
+	text-decoration: underline;
+}

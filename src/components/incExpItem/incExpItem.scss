@@ -1,0 +1,10 @@
+.card {
+	max-height: 50px;
+	font-size: 15px;
+	text-align: left;
+	line-height: 50px;
+	min-width: 350px;
+	& span {
+		margin-right: 5px;
+	}
+}
