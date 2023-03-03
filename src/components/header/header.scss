@@ -4,7 +4,7 @@
 	&__wrapper {
 		display: flex;
 		flex-direction: row;
-		margin-bottom: 15px;
+		margin-bottom: 55px;
 	}
 	&__logo {
 		text-align: center;
@@ -14,7 +14,7 @@
 		}
 	}
 	&__sep {
-		border: 1px solid;
+		border-bottom: 1px solid;
 		width: 90%;
 		margin: 0 auto;
 	}

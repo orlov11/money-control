@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import CategorytList from '../../components/CategoryList/CategorytItem'
+import AccoutsList from '../../components/accountList/accountsLIst'
+import CategorytList from '../../components/CategoryList/CategoryList'
 import IncExpList from '../../components/incExpList/incExpList'
 import MainBtn from '../../components/mainBtn/mainBtn'
 import './main-page.scss'
@@ -19,7 +20,7 @@ const MainPage = () => {
 	return (
 		<section>
 			<div className="container">
-				<h1 className="title">Main Page</h1>
+				<h1 className="title_page">Главная страница</h1>
 				<div className="main">
 					<div className="main__wrapper">
 						<div className="main__item money">
@@ -62,8 +63,11 @@ const MainPage = () => {
 								{activeEx === 2 ? <IncExpList /> : <CategorytList />}
 							</ul>
 						</div>
-						<div className="main__item">
-							<h2 className="money__wrapper">Счета</h2>
+						<div className="main__item money">
+							<h2 className="main__tiitle">Счета</h2>
+							<ul className="money__wrapper">
+								<AccoutsList />
+							</ul>
 						</div>
 					</div>
 				</div>

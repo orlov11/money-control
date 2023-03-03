@@ -17,7 +17,7 @@ const menu = [
 	{
 		_id: 4,
 		name: 'Счета и редактирование',
-		link: 'nav'
+		link: 'account'
 	},
 	{
 		_id: 5,

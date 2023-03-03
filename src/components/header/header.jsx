@@ -7,10 +7,10 @@ const Header = () => {
 		<header className="header">
 			<div className="header__wrapper">
 				<div className="header__logo">
-					<Link to="/">
-						{' '}
-						<h1 className="header__logo-text">InCome</h1>
-					</Link>
+					{' '}
+					<h1 className="header__logo-text">
+						<Link to="/">InCome </Link>
+					</h1>
 				</div>
 				<div className="header__account account">
 					<Link to="/" className="account">

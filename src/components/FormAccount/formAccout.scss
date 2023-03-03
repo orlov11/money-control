@@ -1,0 +1,26 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	gap: 30px;
+	margin: 0 auto;
+	input,
+	select {
+		border: 1px solid #fefefe;
+		border-radius: 5px;
+		height: 40px;
+	}
+	option {
+		margin: 5px;
+		height: 50px;
+	}
+	&_btn {
+		color: #fff;
+		width: 180px;
+		margin: 20px auto;
+		cursor: pointer;
+		border: 1px solid #fefefe;
+		border-radius: 5px;
+		padding: 15px;
+	}
+}

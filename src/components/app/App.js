@@ -5,6 +5,7 @@ import MainPage from '../../layouts/main-page/main-page'
 import Nav from '../main/nav'
 
 import './app.scss'
+import AccoutPage from '../../layouts/account-page/account-page'
 
 function App() {
 	return (
@@ -13,6 +14,7 @@ function App() {
 			<Switch>
 				<Route exact path="/" component={Nav} />
 				<Route path="/main" component={MainPage} />
+				<Route path="/account" component={AccoutPage} />
 			</Switch>
 		</>
 	)
